@@ -8,7 +8,6 @@ const Numerot = ({persons,functions}) =>
 
 //onClick=personService.remove(id)
 
-
   return (
     <div>
 

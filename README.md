@@ -1,3 +1,15 @@
+http://cryptic-atoll-84395.herokuapp.com/api/persons
+
+
+
+
+command "heroku local web"
+works
+https://cryptic-atoll-84395.herokuapp.com/
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +78,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+# telephone-book-nodejs2

@@ -3,7 +3,6 @@ import Numerot from './components/Numerot'
 import Forms from './components/Forms'
 import axios from 'axios'
 
-
 import personService from './services/persons'
 
 /*
@@ -43,10 +42,14 @@ toggleImportanceOf = (id) => {
 */
 
 componentDidMount() {
+
+
   personService
     .getAll()
     .then(response => {
-      this.setState({persons: response.data})
+      console.log("response")
+      console.log(response)
+      this.setState({persons: response})
     })
 }
 
@@ -65,7 +68,7 @@ then
 personService
     .getAll()
     .then(response => {
-      this.setState({persons: response.data})
+      this.setState({persons: response})
     })
 )
 }
